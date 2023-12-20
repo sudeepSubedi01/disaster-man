@@ -1,0 +1,63 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b2430;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+.navItems ul {
+    display: flex;
+    align-items: center ;
+    margin-top: 34px;
+}
+.navbar ul li{
+    padding: 0 20px;
+}
+
+.navLinks{
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 0 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.navLinks:hover{
+    color:#17cf97;
+}
+.navLinks:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #17cf97;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+.signUpBtn{
+    display: flex;
+    position: absolute;
+    right: 90px;
+    top: 15px;
+}
+.signUpBtn button{
+    margin: 0 10px;
+    border-radius: 15px;
+    width: 67px;
+    height: 30px;
+    background-color: #17cf97;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.signUpBtn button:hover{
+    color:rgb(83, 23, 194);
+}
