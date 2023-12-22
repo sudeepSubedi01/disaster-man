@@ -24,7 +24,7 @@ function App() {
       .then(result => setDataPhp(result))
       .catch(error => console.error('Error fetching data from PHP:', error));
   }, []);
-
+  //hello updated code
   return (
     <>
     <BrowserRouter>
