@@ -1,0 +1,15 @@
+.pdfContainer {
+    width: 100%;
+    height: 600px;
+    margin: 20px 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdfDocument {
+    
+    width: 60%;
+    height: 100%;
+}
